@@ -26,12 +26,12 @@ window.addEventListener("scroll", () => {
 let current = 1;
 const totalImages = 5;
 
-// setInterval(() => {
-//   changeBG.style.backgroundImage = `url('./assests/bg${current}.jpg')`;
-//   console.log(current);
+setInterval(() => {
+  changeBG.style.backgroundImage = `url('./assests/bg${current}.jpg')`;
+  console.log(current);
 
-//   current = current % totalImages + 1;
-// }, 1500);
+  current = current % totalImages + 1;
+}, 1500);
 ugtab.addEventListener('click',()=>{
     pgtab.classList.remove('active')
     ugtab.classList.add('active')
@@ -53,19 +53,19 @@ pgtab.addEventListener('click',()=>{
     });
 })
 
-// const slides = document.querySelectorAll('.banner-slide');
-// let currentIndex = 0;
+const slides = document.querySelectorAll('.banner-slide');
+let currentIndex = 0;
 
-// function showSlide(index) {
-//   slides.forEach((slide, i) => {
-//     slide.classList.remove('active');
-//     if (i === index) {
-//       slide.classList.add('active');
-//     }
-//   });
-// }
+function showSlide(index) {
+  slides.forEach((slide, i) => {
+    slide.classList.remove('active');
+    if (i === index) {
+      slide.classList.add('active');
+    }
+  });
+}
 
-// setInterval(() => {
-//   currentIndex = (currentIndex + 1) % slides.length;
-//   showSlide(currentIndex);
-// }, 3000);
+setInterval(() => {
+  currentIndex = (currentIndex + 1) % slides.length;
+  showSlide(currentIndex);
+}, 3000);
