@@ -34,12 +34,12 @@ The UI is clean and designed to reflect the professionalism of an academic insti
 - Footer with contact, address, and social links
 
 ---
-##📌 Conclusion
+## 📌 Conclusion
 The DSCASC College Website is a professional, responsive, and fully static site developed with just HTML, CSS, and JavaScript. It reflects the structure and spirit of DSCASC and is a great representation of front-end development fundamentals.
 
-##🤝 Contributions and Feedback
+## 🤝 Contributions and Feedback
 Contributions, issues, and feedback are welcome!
 Feel free to fork the repo and enhance it further.
 
 
-#Created with ❤️ by M M Wazir Kazimi – BCA Student @ DSCASC
+## Created with ❤️ by M M Wazir Kazimi – BCA Student @ DSCASC
